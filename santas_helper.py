@@ -1,5 +1,5 @@
-def get_input_lines(day: int, part: int, demo = False):
-    filepath = f"input\\{str(day).rjust(2, '0')}_{str(part)}"
+def get_input_lines(day: int, demo = False):
+    filepath = f"input\\{str(day).rjust(2, '0')}"
     print(filepath)
     if demo:
         filepath += "_d"
